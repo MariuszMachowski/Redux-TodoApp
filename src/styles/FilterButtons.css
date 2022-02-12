@@ -1,0 +1,20 @@
+div.buttonWrap{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 85%;
+    margin: 6% auto;
+}
+
+@media(orientation:landscape){
+    div.buttonWrap{
+        margin: 4% auto;
+    }
+  }
+
+  @media(min-width: 1024px) and (orientation: landscape) {
+    div.buttonWrap{
+        margin: 4% auto;
+        flex-basis: 51%;
+        justify-content: space-around;
+    }
+}

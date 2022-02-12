@@ -1,0 +1,29 @@
+button.filter{
+    flex-basis: 30%;
+    line-height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(245, 119, 74);
+    font-weight: bold;
+}
+
+@media(min-width:600px){
+    button.filter{
+        line-height: 60px;
+        font-size: 20px;
+    }
+}
+@media(orientation:landscape){
+    button.filter{
+        line-height: 45px;
+        font-size: 16px;
+    }
+  }
+  @media(min-width: 1024px) and (orientation: landscape) {
+    button.filter{
+        flex-basis: 25%;
+        line-height: 45px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

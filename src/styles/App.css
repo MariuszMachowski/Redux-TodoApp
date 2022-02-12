@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #527ae7;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+div.App{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1{
+  flex-basis: 100%;
+  color:white;
+  text-align: center;
+  margin: 5vh 0;
+  text-shadow: 4px 4px 5px #333;
+}
+@media(min-width:600px){
+    div.App{
+      width: 90%;
+      margin: 0 auto;
+    }
+    h1{
+      font-size: 40px;
+    }
+}
+
+@media(orientation:landscape){
+  div.App{
+    width: 80%;
+  }
+  h1{
+    font-size: 30px;
+    margin: 10vh 0;
+  }
+}
+@media(min-width: 1024px) and (orientation: landscape) {
+  div.App{
+    width: 90%;
+  }
+  h1{
+    font-size: 40px;
+    margin: 7vh 0;
+  }
+}

@@ -1,0 +1,14 @@
+div.tasksContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 50vh;
+    flex-basis: 85%;
+    margin: 20px auto;
+}
+
+@media(min-width: 1024px) and (orientation: landscape) {
+    div.tasksContainer{
+        justify-content:flex-start;
+    } 
+}
